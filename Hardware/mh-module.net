@@ -1,0 +1,1167 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\user\\Desktop\\KicadProj\\Stick\\stick\\mh-module.kicad_sch")
+		(date "2026-09-24T13:03:05")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "mh-module.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "J8")
+			(value "Parallel_F")
+			(description "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x16")
+				(description "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mh-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b5066d06-6cb0-490b-9bf4-77c274c83e82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J12")
+			(value "I2C_M")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mh-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4d7a9943-c292-4579-81af-3d34b4f1bf49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U12")
+			(value "ATtiny88-A")
+			(footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+			(datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf")
+			(description "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32")
+			(fields
+				(field
+					(name "Footprint") "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf")
+				(field
+					(name "Description") "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32")
+			)
+			(libsource
+				(lib "MCU_Microchip_ATtiny")
+				(part "ATtiny88-A")
+				(description "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mh-module.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "AVR 8bit Microcontroller tinyAVR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TQFP*7x7mm*P0.8mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b30d1a9-cc89-4ba1-a52e-536d44c33837")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x16")
+			(description "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x16")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "Pin_16")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "MCU_Microchip_ATtiny")
+			(part "ATtiny88-A")
+			(description "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32")
+			(docs "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf")
+			(footprints
+				(fp "TQFP*7x7mm*P0.8mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ATtiny88-A")
+				(field
+					(name "Footprint") "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+				(field
+					(name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf")
+				(field
+					(name "Description") "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "PD3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "PD4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "PA2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "PA3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "PB6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "PB7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "PD5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "PD6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "PD7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "PB0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "PB1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "PB2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "PB3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "PB4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "PB5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "AVCC")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "PA0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "PC7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "PA1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "PC0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "PC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "PC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "PC3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "PC4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "PC5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "~{RESET}/PC6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "PD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "PD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "PD2")
+					(type "bidirectional")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "MCU_Microchip_ATtiny")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_Microchip_ATtiny.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "18")
+				(pinfunction "AVCC_18")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U12")
+				(pin "4")
+				(pinfunction "VCC_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/A6")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "19")
+				(pinfunction "PA0_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/A7")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "22")
+				(pinfunction "PA1_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CLKI")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "7")
+				(pinfunction "PB6_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/D0")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "30")
+				(pinfunction "PD0_30")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/D3")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "1")
+				(pinfunction "PD3_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/D4")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "2")
+				(pinfunction "PD4_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/D5")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "9")
+				(pinfunction "PD5_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "/D6")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "10")
+				(pinfunction "PD6_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/D7")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "11")
+				(pinfunction "PD7_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/D8")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "12")
+				(pinfunction "PB0_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/D9")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "13")
+				(pinfunction "PB1_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/D10")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "14")
+				(pinfunction "PB2_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/D11")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "15")
+				(pinfunction "PB3_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/D12")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "16")
+				(pinfunction "PB4_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "/D13")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "17")
+				(pinfunction "PB5_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/D15")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "8")
+				(pinfunction "PB7_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "/D16")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "20")
+				(pinfunction "PC7_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "/D17{slash}A0")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "23")
+				(pinfunction "PC0_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "/D18{slash}A1")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "24")
+				(pinfunction "PC1_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "/D19{slash}A2")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "25")
+				(pinfunction "PC2_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "/D20{slash}A3")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "26")
+				(pinfunction "PC3_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "/D21{slash}A4")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "27")
+				(pinfunction "PC4_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "/D22{slash}A5")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "28")
+				(pinfunction "PC5_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "/D25")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "3")
+				(pinfunction "PA2_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "/D26")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "6")
+				(pinfunction "PA3_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "/D27{slash}~{RST}")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "29")
+				(pinfunction "~{RESET}/PC6_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "/USB+")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "31")
+				(pinfunction "PD1_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "/USB-")
+			(class "Default")
+			(node
+				(ref "U12")
+				(pin "32")
+				(pinfunction "PD2_32")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "21")
+				(pinfunction "GND_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U12")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "power_in")
+			)
+		)
+	)
+)
