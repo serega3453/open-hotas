@@ -1,26 +1,15 @@
 #include "Arduino.h"
 #include "Wire.h"
-
-struct data
-{
-	uint16_t axis_X;
-	uint16_t axis_Y;
-	uint16_t axis_RX;
-	uint16_t axis_RY;
-	uint32_t switches;	//0..15 - matrix buttons, 16..19 - switches, 20..31 - reserved
-};
-
-const int RX_LO = 340, RX_HI = 670;
-const int RY_LO = 390, RY_HI = 600;
+#include "structures.h"
 
 data current_state = {};
 
 const int JOY_RX = A0;
 const int JOY_RY = A1;
 
-const int  JOY_X = A6;
-const int  JOY_Y = A7;
-const int  PIN_LED = 0;
+const int JOY_X = A6;
+const int JOY_Y = A7;
+const int PIN_LED = 0;
 
 // 3..10 - keyboard matrix, 11 - joystick switch, 12 - tumbler, 13 - slider1, 14 - slider2
 const int switch_pin_count = 4;
@@ -58,14 +47,11 @@ void scan_inputs()
 	temp_state.axis_Y = analogRead(JOY_Y);
 
 	int rx = 1023 - analogRead(JOY_RX);
-	rx = constrain(rx, RX_LO, RX_HI);
-	temp_state.axis_RX = (uint32_t)(rx - RX_LO) * 1023 / (RX_HI - RX_LO);
-	//temp_state.axis_RX = rx;
+	temp_state.axis_RX = rx;
 
 	int ry = analogRead(JOY_RY);
-	ry = constrain(ry, RY_LO, RY_HI);
-	temp_state.axis_RY = (uint32_t)(ry - RY_LO) * 1023 / (RY_HI - RY_LO);
-	//temp_state.axis_RY = ry;
+	temp_state.axis_RY = ry;
+
 	current_state = temp_state;
 }
 
