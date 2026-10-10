@@ -44,8 +44,9 @@ void receiveData()
 
 static void ema(uint16_t &f, uint16_t raw)
 {
-  int16_t d = raw - f;
-  f += (d + (d > 0 ? 2 : -2)) / 3;
+  int16_t d = (int16_t)raw - (int16_t)f;
+  if (d == 0) return;
+  f += (d + (d > 0 ? 1 : -1)) / 2;
 }
 
 void joystick_update()
