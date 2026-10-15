@@ -437,7 +437,7 @@
         "uuid": "9e7dbdb5-743c-472c-8f01-b7d18c0f221f"
       }
     ],
-    "used_designators": "#PWR48-49,#PWR77,#PWR83-85,#PWR95-96,J8,J12,U12",
+    "used_designators": "UART_F1,#PWR104-105,J10",
     "variants": []
   },
   "sheets": [
