@@ -8,7 +8,7 @@ Joystick_ Joystick
 (
   JOYSTICK_DEFAULT_REPORT_ID,
   JOYSTICK_TYPE_JOYSTICK,
-  20, 0,                 // 20 switches, 0 hat
+  22, 0,                 // 22 switches, 0 hat
   true, true, false,     // X, Y, Z
   true, true, false,  // Rx, Ry, Rz
   false, false, false,  // rudder, throttle, accelerator
@@ -60,7 +60,7 @@ void joystick_update()
 
   if (current_state.switches != last_switches)
   {
-    for (int i = 0; i < 20; i++)
+    for (int i = 0; i < 22; i++)
       Joystick.setButton(i, bitRead(current_state.switches, i));
 
     last_switches = current_state.switches;

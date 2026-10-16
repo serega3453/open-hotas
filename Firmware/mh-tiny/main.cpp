@@ -11,14 +11,14 @@ const int JOY_X = A6;
 const int JOY_Y = A7;
 const int PIN_LED = 0;
 
-// 3..10 - keyboard matrix, 11 - joystick switch, 12 - tumbler, 13 - slider1, 14 - slider2
-const int switch_pin_count = 4;
+// 3..10 - keyboard matrix, 11 - joystick switch, 12 - tumbler, 13 - slider1, 14 - slider2, 15 - btn1, 16 - btn2
+const int switch_pin_count = 6;
 const int matrix_rows_count = 4;
 const int matrix_cols_count = 4;
 
 const int matrix_count = matrix_rows_count * matrix_cols_count;
 
-const int switch_pins[switch_pin_count] = {PIN_PB3, PIN_PB4, PIN_PB5, PIN_PB7};
+const int switch_pins[switch_pin_count] = {PIN_PB3, PIN_PB4, PIN_PB5, PIN_PB7, PIN_PA2, PIN_PA3};
 const int matrix_cols[matrix_cols_count] = {3, 4, 5, 6};
 const int matrix_rows[matrix_rows_count] = {7, 8, 9, 10};
 
